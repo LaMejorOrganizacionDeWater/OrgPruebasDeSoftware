@@ -4,4 +4,5 @@ def process_data(values):
     if v > 10:
     total += v
     unused_var = 1
+    unused_varDOS = 30
   return total
