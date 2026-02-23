@@ -4,7 +4,6 @@ import json
 import sqlite3
 import subprocess
 
-HARDCODED_PASSWORD = "admin123"   # hardcoded secret (security hotspot)
 
 def process_data(values: list = []):  # mutable default argument (bug/code smell)
     total = 0
